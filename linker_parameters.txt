@@ -1,0 +1,8 @@
+; link into a console application
+/console
+; define the entry point of the application
+/entry _main
+; define the object file to be linked
+Release\SimpleProgram.obj
+; define executable dependencies
+msvcrt.dll
